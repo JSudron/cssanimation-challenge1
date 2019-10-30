@@ -1,0 +1,25 @@
+.ball {
+    background-color: #bada55;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    top: 0;
+    position: relative;
+
+    animation: jump;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: .5s;
+
+}
+
+@keyframes jump {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 100px;
+    }
+}
